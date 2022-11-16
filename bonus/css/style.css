@@ -172,3 +172,7 @@ footer .container.flex {
     opacity: 1;
     transition: opacity 500ms ease-in-out;
 }
+
+.heart-main:hover {
+    color: red;
+}

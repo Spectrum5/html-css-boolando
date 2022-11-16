@@ -157,3 +157,18 @@ footer .container.flex {
 .footer-list.footer-social {
     font-size: 1.2em;
 }
+
+/* HOVER */
+
+.container-img img:last-of-type {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+}
+
+.container-img:hover img:last-of-type {
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+}

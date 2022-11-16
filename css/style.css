@@ -76,7 +76,7 @@ header {
     color: #FFF;
     padding: 4px;
     font-size: 0.8em;
-    margin-right: 2px;
+    margin-right: 3px;
 }
 
 .sale-green {
@@ -90,4 +90,32 @@ header {
     position: absolute;
     bottom: 45px;
     left: 0;
+}
+
+.heart-main {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    background-color: #FFF;
+    font-size: 2em;
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+}
+
+.title-product {
+    font-size: 1.3em;
+}
+
+.price {
+    font-size: 0.8em;
+}
+
+.sale-price {
+    color: red;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
 }

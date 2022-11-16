@@ -26,6 +26,15 @@ li {
     padding: 5px;
 }
 
+main {
+    padding-top: 100px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
 /* ********** HEADER ********** */
 
 .container.flex {
@@ -49,4 +58,36 @@ header {
 .category-nav {
     gap: 8px;
     cursor: pointer;
+}
+
+/* ********** MAIN ********** */
+
+.container-img {
+    width: 400px;
+    height: auto;
+}
+
+.relative {
+    position: relative;
+}
+
+.sale-red {
+    background-color: #F44336;
+    color: #FFF;
+    padding: 4px;
+    font-size: 0.8em;
+    margin-right: 2px;
+}
+
+.sale-green {
+    background-color: #008000;
+    color: #FFF;
+    padding: 4px;
+    font-size: 0.8em;
+}
+
+.badge {
+    position: absolute;
+    bottom: 45px;
+    left: 0;
 }
